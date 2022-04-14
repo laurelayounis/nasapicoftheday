@@ -1,0 +1,65 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body{
+  background-color: black;
+}
+
+.flexContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+html{
+  font-size: 62.5;
+}
+
+
+h1{
+  text-align: center;
+  color: white;
+  margin-top: 3%;
+}
+
+button, input{
+ width: 350px;
+ margin: auto;
+ margin-bottom: 10px;
+ margin-top: 3%;
+}
+
+p{
+  font-weight: 200;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  line-height: 1.5;
+  width:55%;
+  margin:auto;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+h2{
+  color:white;
+  text-align: center;
+  margin-top: 50px;
+}
+
+img{
+  width: 50%;
+  margin: auto;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
